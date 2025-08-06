@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+<!-- hearder -->
+<header class="header">
+        <a href="#"><img src="/images/ZecW.jpg" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class='bxr  bx-x' onclick="closeMenu()"></i> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+
+    <!-- Sub-header Session -->
+     <section class="sub-header" id="sub-header">
+        <h1>About <span>Me</span></h1>
+     </section>
+
+     <!-- About Session -->
+      <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/ContactUs.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h4><span>I'm a</span> Technician for ICT gadgets</h4>
+            <p>I am a skilled ICT Technician and Web Developer with hands-on experience in both tech 
+                hardware solutions and website development.I provide a wide range of ICT services, including:<br>
+                - Repairs and maintenance of laptops, printers, and mobile phones<br>
+                - Software installation, upgrades, and troubleshooting<br>
+                - Network setup and technical support for homes and businesses<br><br>
+                As a Web Developer, I also help individuals, startups, and businesses grow their online presence through:<br>
+                - Professional website design and development (using HTML, CSS, JavaScript, etc.)<br>
+                - E-commerce site creation<br>
+                - Website updates, redesigns, and maintenance<br>
+                - Training in web development for beginners and aspiring tech professionals<br><br>
+                My goal is to provide reliable, affordable, and efficient tech services that keep your devices 
+                running smoothly and your business visible online.<br>
+                If you're looking for someone who understands both the hardware and the web, I’m here to help. 
+                Let’s talk about how I can support your tech and digital needs.</p>
+                <a href="" class="btn">Let's Talk</a>
+        </div>
+      </section>
+
+      <section class="others" id="others">
+        <div class="sub-text-title">
+            <h2>Why <span>Me? </span></h2>
+        </div>
+        <div class="others-img">
+            <img src="/images/ZecW.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+            <h3><span>As</span> a Technician & a Web Developer</h3>
+            <p>
+                - I provide reliable and efficient repair services for laptops, printers, mobile phones, 
+                and other ICT divices to minimize downtime and increase productivity<br><br>
+                - I design and develop user-friendly, functional and responsive websites that help 
+                individuals and businesses establish and grow their online presence.<br><br>
+                - I offer affordable, quality-driven ICT and web solutions tailored to each client's
+                specific needs and goals.<br><br>
+            </p>
+        </div>
+        <div>
+            <a href="" class="btn">Hire Me</a>
+        </div>
+      </section>
+
+    <!-- footer -->
+     <footer class="footer">
+        <div class="attribution">
+            <p>Design With <i class='bx bx-heart'></i>By SanusiToheeb</p>
+        </div>
+        <div class="move-up">
+            <a href="#sub-header"><i class='bx bx-arrow-up'></i></a>
+        </div>
+     </footer>
+
+     <!-- JS for toggle menu -->
+      <script>
+        var navMenu = document.getElementById("navMenu");
+
+        function openMenu(){
+            navMenu.style.right = "0";
+        }
+        function closeMenu() {
+            navMenu.style.right = "-200px";
+        }
+      </script>
+</body>
+</html>
+

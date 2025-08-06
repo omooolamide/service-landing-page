@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+<!-- hearder -->
+<header class="header">
+        <a href="#"><img src="/images/ZecW.jpg" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class='bxr  bx-x' onclick="closeMenu()"></i> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+
+<!-- Sub-header Session -->
+    <section class="sub-header" id="sub-header">
+    <h1>Contact <span> Me!</span></h1>
+    </section>
+ 
+<!-- Contact Session -->
+
+<section class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.2848225568328!2d3.506201174754108!3d6.61148929338253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bee8700aac65b%3A0x2e89d7a15beb3806!2sIreshe%20Rd%2C%20Ikorodu%2C%20104101%2C%20Lagos!5e0!3m2!1sen!2sng!4v1754468949851!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+    <section class="contact" id="contact">
+            <div class="contact-text">
+                <h4 class="dot">Whatever your project may be...</h4>
+                <p>As a Computer and Mobile Device Technician, I'm skilled and 
+                    can offer a range of technical and customer-focused on how to fix,
+                    repair and replace your gadgets screen, battery, keyboard etc. 
+                    Let's talk about your specific needs and see how I can help.</p>
+                    <div class="list">
+                        <li><a href="#">+2347082951720</a></li>
+                        <li><a href="#">zec.tons@gmial.com</a></li>
+                        <li><a href="#">like, Share & Subscribe</a></li>
+                    </div>
+
+                    <div class="icon">
+                        <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a>
+                    </div>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input type="name" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="number" placeholder="Your Mobile Number" required>
+                    <textarea name="" id="" cols="35" rows="10" placeholder="How can i help You?"></textarea>
+                    <input type="submit" value="Send Message" class="submit">
+                </form>
+            </div>
+    </section>
+
+    <!-- footer -->
+     <footer class="footer">
+        <div class="attribution">
+            <p>Design With <i class='bx bx-heart'></i>By SanusiToheeb</p>
+        </div>
+        <div class="move-up">
+            <a href="#home"><i class='bx-arrow-up'></i></a> 
+        </div>
+    </footer>
+
+     <!-- JS for toggle menu -->
+      <script>
+        var navMenu = document.getElementById("navMenu");
+
+        function openMenu(){
+            navMenu.style.right = "0";
+        }
+        function closeMenu() {
+            navMenu.style.right = "-200px";
+        }
+      </script>
+</body>
+</html>
+

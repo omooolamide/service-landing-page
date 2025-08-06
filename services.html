@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+<!-- hearder -->
+<header class="header">
+        <a href="#"><img src="/images/ZecW.jpg" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class='bxr  bx-x' onclick="closeMenu()"></i> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+
+    <!-- Sub-header Session -->
+     <section class="sub-header" id="sub-header">
+        <h1><span>My </span>Services</h1>
+     </section>
+
+      <!-- services session -->
+       <section class="services" id="services">
+        <div class="text-title">
+            <h2>What I <span>Do? </span></h2>            
+        </div>
+        <div class="services-content">
+            <div class="box">
+                <div class="icons">
+                    <i class="bx bx-code"></i>                    
+                </div>
+                <h3>Hardware Repairs</h3>
+                <p>I'm proficient in repairing Phones, Laptops and Printer. Providing a wide range services for ICT Gadgets,
+                    also installation of software both Operating and Application Softwares for individuals or business certers.
+                    on the latest upgrades on technology devices. </p>
+                <a href="#" class="btn">Start a Project</a>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <i class="bx bx-devices"></i>                    
+                </div>
+                <h3>Fontend Development</h3>
+                <p>I design beautiful UI designs and bring them to life with clean,
+                    functional code. Using HTML, CSS, and JavaScrip, I make sure that every
+                    detail is just right, so the final result is a seamless and user-friendly.</p>
+                <a href="#" class="btn">Start a Project</a>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <i class="bx bx-pen"></i>                    
+                </div>
+                <h3>Graphics and UI/UX Design</h3>
+                <p>Good graphics design is more than just making things look pretty. It's about 
+                    communicating ideas and emotions through visual elements, while UI/UX design 
+                    solve problems in a user-friendly way by approaching it with a focus on the end user, 
+                    creating interfaces that are intuitive and easy to use. Let's create an experience 
+                    that delights your users and meets your goals.</p>
+                <a href="#" class="btn">Start a Project</a>
+            </div>
+        </div>
+       </section>
+
+       
+      <section class="others" id="others">
+        <div class="sub-text-title">
+            <h2>Other <span> Services </span></h2>
+        </div>
+        <div class="others-img">
+            <img src="/images/ICT gadgets.jpeg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+            <h3><span> Passionate About </span> Volunteering </h3>
+            <p>Beyond my work as an ICT Technician and Web Developer,<br>
+                I am deeply passionate about volunteering and community service.<br>
+                I believe in using my digital skills to empower others, especially 
+                young people, students, and underserved communities.<br> Through volunteering, I:<br>
+                - Low-cost ICT training to individuals eager to learn simple website creation<br>
+                - Organize or contribute to digital literacy workshops and youth empowerment programs<br>
+                - Support initiatives that promote access to technology and education for all<br>
+                - My goal is not just to provide services, but to make a lasting impact by <br>
+                using technology as a tool to uplift lives and build a stronger, digitally aware society.<br><br>
+            </p>
+        </div>
+        <div>
+            <a href="" class="btn">Book Now</a>
+        </div>
+      </section>
+
+
+    <!-- footer -->
+     <footer class="footer">
+        <div class="attribution">
+            <p>Design With <i class='bx bx-heart'></i>By SanusiToheeb</p>
+        </div>
+        <div class="move-up">
+            <a href="#sub-header"><i class='bx bx-arrow-up'></i></a>
+        </div>
+     </footer>
+
+     <!-- JS for toggle menu -->
+      <script>
+        var navMenu = document.getElementById("navMenu");
+
+        function openMenu(){
+            navMenu.style.right = "0";
+        }
+        function closeMenu() {
+            navMenu.style.right = "-200px";
+        }
+      </script>
+</body>
+</html>
+
